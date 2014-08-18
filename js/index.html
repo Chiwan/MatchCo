@@ -1,78 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>Match&amp;CO</title>
-	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<!-- Custom CSS -->
-	<link href="css/agencyApp.css" rel="stylesheet">
-	<!-- Custom Fonts -->
-	<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <meta charset="utf-8" />
+    <title>Real Estate Map Update Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
-<body id="page-top" class="index">
-	<!-- Navigation -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-	<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand page-scroll" href="index.html">Match&amp;CO</a>
-			</div>
-	<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-				<li>
-				<a href="index.html">Home</a>
-				</li>
-				<li>
-				<a href="app.html">Application</a>
-				</li>
-				<li>
-				<a class="page-scroll" href="#connexion">Connexion</a>
-				</li>
-				</ul>
-			</div>
-		<!-- /.navbar-collapse -->
-		</div>
-	<!-- /.container-fluid -->
-	</nav>
-	<!-- Header -->
-	<header>
-		<div class="container">
-			<div class="intro-text">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+<body>
+
+<div class="container">
+
+<div class="page-header">
+    <h1>Real Estate Map Update <small>Bootstrap template, demonstrating a real estate list with a map</small></h1>
+</div>
+
+<!-- Real Estate Map Update - START -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-                    <div class="panel panel-primary" onclick="return init_map(0);">
+                    <div class="panel panel-default" onclick="return init_map(0);">
                         <div class="row padall">
                             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                                 <span></span>
-                                <img src="img/house/condo1.jpg" />
+                                <img src="/Content/images/shared/properties1/condo1.jpg" />
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                                 <div class="clearfix">
                                     <div class="pull-left">
-                                        <span class="fa fa-euro icon">499,000</span>
+                                        <span class="fa fa-dollar icon">499,000</span>
                                     </div>
                                     <div class="pull-right">
                                         900 SqFt | 1 Bedroom | 1 Bathroom
@@ -80,7 +42,7 @@
                                 </div>
                                 <div>
                                     <h4><span class="fa fa-map-marker icon"></span>1021 N Garfield St</h4>
-                                    Build 2007. Close to Merto.<span class="fa fa-search icon pull-right">   More</span>
+                                    Build 2007. Close to Merto.<span class="fa fa-lock icon pull-right">   Sold</span>
                                 </div>
                             </div>
                         </div>
@@ -93,12 +55,12 @@
                         <div class="row padall">
                             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                                 <span></span>
-                                <img src="img/house/condo2.jpg" />
+                                <img src="/Content/images/shared/properties1/condo2.jpg" />
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                                 <div class="clearfix">
                                     <div class="pull-left">
-                                        <span class="fa fa-euro icon">385,000</span>
+                                        <span class="fa fa-dollar icon">$385,000</span>
                                     </div>
                                     <div class="pull-right">
                                         1,135 SqFt | 2 Bedrooms | 2 Bathrooms                                
@@ -119,12 +81,12 @@
                         <div class="row padall">
                             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                                 <span></span>
-                                <img src="img/house/house1.jpg" />
+                                <img src="/Content/images/shared/properties1/house1.jpg" />
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                                 <div class="clearfix">
                                     <div class="pull-left">
-                                        <span class="fa fa-euro icon">675, 000</span>
+                                        <span class="fa fa-dollar icon">675, 000</span>
                                     </div>
                                     <div class="pull-right">
                                         1,196 SqFt | 3 Bedrooms | 1 Bathroom                                
@@ -145,12 +107,12 @@
                         <div class="row padall">
                             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                                 <span></span>
-                                <img src="img/house/house2.jpg" />
+                                <img src="/Content/images/shared/properties1/house2.jpg" />
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                                 <div class="clearfix">
                                     <div class="pull-left">
-                                        <span class="fa fa-euro icon">945,000</span>
+                                        <span class="fa fa-dollar icon">945,000</span>
                                     </div>
                                     <div class="pull-right">
                                         3,500 SqFt | 5 Bedrooms | 3 Bathrooms  
@@ -200,42 +162,53 @@
 
     init_map(0);
 </script>
-					
-	</header>
 
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<span class="copyright">Copyright &copy; Match&amp;CO</span>
-				</div>
-				<div class="col-md-4">
-					<ul class="list-inline social-buttons">
-					<li><a href="#"><i class="fa fa-twitter"></i></a>
-					</li>
-					<li><a href="#"><i class="fa fa-facebook"></i></a>
-					</li>
-					<li><a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-					</ul>
-				</div>
-			</div>
-		
-	</footer>
+<style>
+    .gmnoprint img {
+    max-width: none; 
+    }
 
+    .panel:hover {
+        background-color: rgb(237, 245, 252);
+    }
 
-	<!-- jQuery Version 1.11.0 -->
-	<script src="js/jquery-1.11.0.js"></script>
-	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Plugin JavaScript -->
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<script src="js/classie.js"></script>
-	<script src="js/cbpAnimatedHeader.js"></script>
-	<!-- Contact Form JavaScript -->
-	<script src="js/jqBootstrapValidation.js"></script>
-	<script src="js/contact_me.js"></script>
-	<!-- Custom Theme JavaScript -->
-	<script src="js/agency.js"></script>
+    .map {
+        min-width: 300px;
+        min-height: 470px;
+        width: 100%;
+        height: 100%;
+    }
+
+    img {
+        max-width: 110%;
+        height: auto;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .rowcolor {
+        background-color: #CCCCCC;
+    }
+
+    .padall {
+        padding: 10px;
+    }
+
+    .padbig {
+        padding: 20px;
+    }
+
+    .icon {
+        font-size: 23px;
+        color: #197BB5;
+    }
+</style>
+
+<!-- Real Estate Map Update - END -->
+
+</div>
+
 </body>
 </html>
