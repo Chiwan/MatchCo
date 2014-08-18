@@ -5582,7 +5582,7 @@ input.search-query {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+/*
 .card.hovercard {
   position: relative;
   width: 240px;
@@ -5591,7 +5591,7 @@ input.search-query {
   text-align: center;
   background-color: #fff;
 }
-
+*/
 .card.hovercard img {
   width: 240px;
   height: 135px;
