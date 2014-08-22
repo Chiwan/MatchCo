@@ -11,11 +11,10 @@
 }
 
 .rating {
-    padding-left:40px;
 }
 
 .skillLine {    
-    display:inline-block;
+	padding-left: 40px
     width:100%;
     padding: 3px 4px;    
 }
